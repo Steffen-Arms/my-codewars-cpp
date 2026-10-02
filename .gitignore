@@ -1,0 +1,73 @@
+# ---------------------------------------------------------------
+# C++ / Linux / VS Code
+# ---------------------------------------------------------------
+
+# Files without an extension (Linux binaries like ./kata).
+# Keep this block FIRST so the rules below can override it.
+*
+!*.*
+!*/
+!Makefile
+!LICENSE
+
+# Compiled output
+*.o
+*.out
+*.a
+*.so
+*.so.*
+*.gch
+*.d
+
+# Build folders
+build/
+bin/
+obj/
+cmake-build-*/
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+compile_commands.json
+
+# Debugging
+core
+core.*
+vgcore.*
+*.dSYM/
+
+# VS Code
+.vscode/*
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+.history/
+
+# Other editors and tooling
+.idea/
+.cache/
+.ccls-cache/
+*.swp
+*~
+
+# Secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+id_rsa*
+id_ed25519*
+credentials.json
+secrets.json
+.netrc
+
+# OS junk
+.DS_Store
+Thumbs.db
+.directory
+.Trash-*/
