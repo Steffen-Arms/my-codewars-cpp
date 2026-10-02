@@ -8,3 +8,6 @@ Given two unordered_maps. one for ingredients and one for recipes. Return the ma
 
 
 ## What I learned
+use "const auto& [x,y]" if iterate maps. This way it dont get copy and you have direct access to key and value. Don't have to compute it twice.
+use more std::min instead of <
+use std::numeric_limits<int>::max() for a minimum search
