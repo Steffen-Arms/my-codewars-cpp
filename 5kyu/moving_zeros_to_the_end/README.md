@@ -1,6 +1,6 @@
 # my-codewars-cpp
 
-# kata: Duplicate Encoder: 
+# kata: 
 https://www.codewars.com/kata/52597aa56021e91c93000cb0
 
 ## Task
